@@ -24,7 +24,7 @@ export class AssetsSection {
     constructor(private readonly page: Page) {
         this.section = page.getByTestId('@dashboard/assets');
         this.tableIcon = this.page.getByTestId('@dashboard/assets/table-icon');
-        this.gridIcon = this.page.getByTestId('@dashboard/assets/grid-icon');
+        this.gridIcon = this.page.getByTestId('@dashboard/assets/squares-four-filled-icon');
         this.enableMoreCoins = this.page.getByTestId('@dashboard/assets/enable-more-coins');
         this.bottomInfo = this.page.getByTestId('@dashboard/asset/bottom-info');
         this.assetExchangeRate = this.page.getByTestId('@dashboard/asset/exchange-rate');

@@ -214,8 +214,8 @@ export const AssetsView = () => {
                                 priority="secondary"
                             />
                             <IconButton
-                                icon="gridNineFilled"
-                                data-testid="@dashboard/assets/grid-icon"
+                                icon="squaresFourFilled"
+                                data-testid="@dashboard/assets/squares-four-filled-icon"
                                 onClick={setGrid}
                                 intent={dashboardAssetsGridMode ? 'brand' : 'neutral'}
                                 priority="secondary"
